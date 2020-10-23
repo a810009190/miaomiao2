@@ -20,6 +20,10 @@ export default{
         {
             path: 'search',
             component: () => import('@/views/Movie/Search')
+        },
+        {
+            path: '',
+            redirect: 'nowplaying'
         }
     ],
     

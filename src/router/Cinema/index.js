@@ -9,6 +9,10 @@ export default{
         {
             path:'alltown',
             component: () => import('@/views/Cinema/Alltown')
+        },
+        {
+            path: '',
+            redirect: 'alltown'
         }
     ]
 }

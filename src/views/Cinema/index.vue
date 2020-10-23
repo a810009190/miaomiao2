@@ -32,6 +32,6 @@ export default {
 </script>
 <style lang="scss" scoped>
     .icon-xiasanjiaoxing{font-size: 10px;}
-    #content .cinema_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-around; align-items:center; background:white;}
+    #content .cinema_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-around; align-items:center; background:white; margin-top: 50px; position: fixed; top: 0;}
 
 </style>

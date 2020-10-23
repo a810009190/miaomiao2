@@ -1,6 +1,6 @@
 <template>
     <div id="main">
-        <Header title="喵喵电影" />
+        <Header title="喵喵电影" style="z-index: 99"/>
             <div id="content">
                 <div class="movie_menu">
                     <router-link tag="div" to="/movie/city" class="city_name">
@@ -18,7 +18,7 @@
                     <router-view />
                 </keep-alive>
             </div>
-        <TabBar />
+        <TabBar  style="z-index: 99"/>
     </div>
 </template>
 <script>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;}
+.movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:40; position: fixed; top: 50px;}
 .movie_menu .city_name{ margin-left: 20px; height:100%; line-height: 45px;}
 .movie_menu .city_name.active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}
 .movie_menu .city_name.router-link-active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}

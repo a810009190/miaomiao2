@@ -33,7 +33,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#content .login_body{  width:100%;}
+#content .login_body{  width:100%; margin-top: 50px;}
 .login_body .login_text{ width:100%; height: 40px; border:none; border-bottom: 1px #ccc solid; margin-bottom: 5px; outline: none; text-indent: 10px;}
 .login_body .login_btn{ height:50px; margin:10px;}
 .login_body .login_btn input{ width:100%; height:100%; background:#e54847; border-radius: 3px; border:none; display: block; color:white; font-size: 20px;}

@@ -12,8 +12,9 @@ const routes = [
   MineRouter,
   {
     path: '/*',
-    redirect: '/movie'
-  }
+    redirect: '/movie/nowplaying'
+  },
+
 ]
 
 const router = new VueRouter({
